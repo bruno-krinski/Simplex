@@ -1,11 +1,27 @@
 #ifndef FUNCTIONS_HPP_
 #define FUNCTIONS_HPP_
 
+#include<vector>
+#include<fstream>
+#include<iostream>
+
 void printVector(std::vector<auto> v){
 	for(auto i = v.begin(); i != v.end(); ++i){
 		std::cout << *i << " ";
 	}
 	std::cout << "\n";
+}
+
+void saveVector(std::vector<auto> v, std::ofstream& out){
+	
+	if(out.is_open()){
+		for(auto i = v.begin(); i != v.end(); ++i){
+			out << *i << " ";
+		}
+		out << "\n";
+	}
+	//out.close();
+
 }
 
 void findMinElementOfVector(std::vector<auto> v, auto& element, unsigned int& index){
@@ -37,6 +53,16 @@ void findMinElementPositiveOfVector(std::vector<auto> v, auto& element, unsigned
 			index = i;
 		}	
 	}
+}
+
+bool findElementInVector(std::vector<auto> v, auto e, unsigned int& index){
+	for(unsigned int i = 0; i < v.size(); ++i){
+		if(v[i] == e){
+			index = i;
+			return true;
+		}
+	}
+	return false;
 }
 
 

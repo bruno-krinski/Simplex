@@ -2,6 +2,7 @@
 #define MATRIX_HPP_
 
 #include<vector>
+#include<fstream>
 #include<iostream>
 
 class Matrix{
@@ -18,6 +19,7 @@ public:
 	double get(unsigned int r, unsigned int c);
 	std::vector<double> getLine(unsigned int index);
 	void print();
+	void save(std::ofstream& out);
 	void resize(unsigned int r, unsigned int c);
 	unsigned int numRows();
 	unsigned int numCols();

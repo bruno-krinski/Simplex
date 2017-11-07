@@ -59,3 +59,13 @@ unsigned int Matrix::numCols(){
 std::vector<double> Matrix::getLine(unsigned int index){
 	return matrix[index];
 }
+
+void Matrix::save(std::ofstream& out){
+	for(unsigned int i = 0; i < rows; ++i){
+		for(unsigned int j = 0; j < cols; ++j){
+			out << matrix[i][j] << " ";
+		}
+		out << "\n";
+	}
+
+}

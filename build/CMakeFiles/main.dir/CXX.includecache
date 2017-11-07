@@ -9,6 +9,8 @@
 ../include/Matrix.hpp
 vector
 -
+fstream
+-
 iostream
 -
 
@@ -27,6 +29,12 @@ functions.hpp
 ../include/functions.hpp
 
 ../include/functions.hpp
+vector
+-
+fstream
+-
+iostream
+-
 
 /home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp
 Matrix.hpp
@@ -37,10 +45,20 @@ Simplex.hpp
 /home/krinski/Documentos/Projetos/Simplex/src/Simplex.hpp
 
 /home/krinski/Documentos/Projetos/Simplex/src/main.cpp
+ctime
+-
+chrono
+-
+cstdlib
+-
+fstream
+-
 iostream
 -
-Simplex.hpp
-/home/krinski/Documentos/Projetos/Simplex/src/Simplex.hpp
 Matrix.hpp
 /home/krinski/Documentos/Projetos/Simplex/src/Matrix.hpp
+Simplex.hpp
+/home/krinski/Documentos/Projetos/Simplex/src/Simplex.hpp
+functions.hpp
+/home/krinski/Documentos/Projetos/Simplex/src/functions.hpp
 
