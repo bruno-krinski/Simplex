@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Matrix.hpp
+vector
+-
+iostream
+-
+
+../include/Simplex.hpp
+string
+-
+vector
+-
+iostream
+-
+algorithm
+-
+Matrix.hpp
+../include/Matrix.hpp
+functions.hpp
+../include/functions.hpp
+
+../include/functions.hpp
+
+/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp
+Matrix.hpp
+/home/krinski/Documentos/Projetos/Simplex/src/Matrix.hpp
+
+/home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp
+Simplex.hpp
+/home/krinski/Documentos/Projetos/Simplex/src/Simplex.hpp
+
+/home/krinski/Documentos/Projetos/Simplex/src/main.cpp
+iostream
+-
+Simplex.hpp
+/home/krinski/Documentos/Projetos/Simplex/src/Simplex.hpp
+Matrix.hpp
+/home/krinski/Documentos/Projetos/Simplex/src/Matrix.hpp
+

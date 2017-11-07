@@ -1,0 +1,3 @@
+/home/krinski/Documentos/Projetos/Simplex/build/CMakeFiles/rebuild_cache.dir
+/home/krinski/Documentos/Projetos/Simplex/build/CMakeFiles/edit_cache.dir
+/home/krinski/Documentos/Projetos/Simplex/build/CMakeFiles/main.dir
