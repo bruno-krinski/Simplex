@@ -4,9 +4,7 @@
 #include<fstream>
 #include<iostream>
 
-#include "Matrix.hpp"
 #include "Simplex.hpp"
-#include "functions.hpp"
 
 int main(int argc, char **argv){
 
@@ -62,8 +60,8 @@ int main(int argc, char **argv){
 	std::chrono::high_resolution_clock::time_point init, end;
 
 	double r;
-	unsigned int numEquations = 1000;
-	unsigned int numVariables = 500;
+	unsigned int numEquations = 10;
+	unsigned int numVariables = 5;
 
 	Matrix matrix(numEquations, numVariables);
 	std::vector<double> b;
@@ -104,7 +102,7 @@ int main(int argc, char **argv){
 
 	matrix.save(out);
 	init = std::chrono::high_resolution_clock::now(); 
-	Simplex simplex(C,matrix,b);
+	Simplex simplex(C,matrix,b,true);
 	end = std::chrono::high_resolution_clock::now();
 
 	auto duration = std::chrono::duration_cast<std::chrono::seconds>(end - init).count();

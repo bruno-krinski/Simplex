@@ -2,6 +2,7 @@
 #define FUNCTIONS_HPP_
 
 #include<vector>
+#include<string>
 #include<fstream>
 #include<iostream>
 
@@ -63,6 +64,12 @@ bool findElementInVector(std::vector<auto> v, auto e, unsigned int& index){
 		}
 	}
 	return false;
+}
+
+void initialize_vars(std::vector<std::string>& v, unsigned int size){
+	for(unsigned int i = 0; i < size; ++i){
+		v.push_back("x"+std::to_string(i));
+	}
 }
 
 

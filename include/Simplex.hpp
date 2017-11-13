@@ -16,7 +16,7 @@ private:
 	//Matrix tablau;
 
 public:
-	Simplex(std::vector<double> C, Matrix A, std::vector<double> b);
+	Simplex(std::vector<double> C, Matrix A, std::vector<double> b, bool parallel=false);
 	~Simplex();
 	void print();
 };
