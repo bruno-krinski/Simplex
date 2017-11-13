@@ -105,33 +105,9 @@ CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.o.p
 CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.o.provides.build: CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.o
 
 
-CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o: /home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/krinski/Documentos/Projetos/Simplex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o -c /home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp
-
-CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp > CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.i
-
-CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp -o CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.s
-
-CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o.requires:
-
-.PHONY : CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o.requires
-
-CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o.provides: CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o.requires
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o.provides.build
-.PHONY : CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o.provides
-
-CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o.provides.build: CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o
-
-
 CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o: /home/krinski/Documentos/Projetos/Simplex/src/functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/krinski/Documentos/Projetos/Simplex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/krinski/Documentos/Projetos/Simplex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o -c /home/krinski/Documentos/Projetos/Simplex/src/functions.cpp
 
 CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.i: cmake_force
@@ -153,20 +129,44 @@ CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o
 CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o.provides.build: CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o
 
 
+CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o: /home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/krinski/Documentos/Projetos/Simplex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o -c /home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp
+
+CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp > CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.i
+
+CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp -o CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.s
+
+CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o.requires:
+
+.PHONY : CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o.requires
+
+CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o.provides: CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o.provides
+
+CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o.provides.build: CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o
+
+
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/main.cpp.o" \
 "CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.o" \
-"CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o" \
-"CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o"
+"CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o" \
+"CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 /home/krinski/Documentos/Projetos/Simplex/bin/main: CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/main.cpp.o
 /home/krinski/Documentos/Projetos/Simplex/bin/main: CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.o
-/home/krinski/Documentos/Projetos/Simplex/bin/main: CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o
 /home/krinski/Documentos/Projetos/Simplex/bin/main: CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o
+/home/krinski/Documentos/Projetos/Simplex/bin/main: CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o
 /home/krinski/Documentos/Projetos/Simplex/bin/main: CMakeFiles/main.dir/build.make
 /home/krinski/Documentos/Projetos/Simplex/bin/main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krinski/Documentos/Projetos/Simplex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/krinski/Documentos/Projetos/Simplex/bin/main"
@@ -179,8 +179,8 @@ CMakeFiles/main.dir/build: /home/krinski/Documentos/Projetos/Simplex/bin/main
 
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/main.cpp.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.o.requires
-CMakeFiles/main.dir/requires: CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o.requires
 
 .PHONY : CMakeFiles/main.dir/requires
 
