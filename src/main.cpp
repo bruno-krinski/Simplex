@@ -4,7 +4,9 @@
 #include<fstream>
 #include<iostream>
 
+#include "functions.hpp"
 #include "Simplex.hpp"
+
 
 int main(int argc, char **argv){
 
