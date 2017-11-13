@@ -1,5 +1,4 @@
 #include "Simplex.hpp"
-#include "functions.hpp"
 
 Simplex::Simplex(std::vector<double> C, Matrix A, std::vector<double> b, bool parallel){
 	std::vector<std::string> vars,aux_vars;

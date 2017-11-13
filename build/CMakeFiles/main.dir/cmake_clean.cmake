@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/main.cpp.o"
-  "CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.o"
   "CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o"
   "CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o"
+  "CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.o"
+  "CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/main.cpp.o"
   "/home/krinski/Documentos/Projetos/Simplex/bin/main.pdb"
   "/home/krinski/Documentos/Projetos/Simplex/bin/main"
 )

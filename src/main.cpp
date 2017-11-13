@@ -4,9 +4,7 @@
 #include<fstream>
 #include<iostream>
 
-#include "functions.hpp"
 #include "Simplex.hpp"
-
 
 int main(int argc, char **argv){
 
@@ -104,7 +102,7 @@ int main(int argc, char **argv){
 
 	matrix.save(out);
 	init = std::chrono::high_resolution_clock::now(); 
-	Simplex simplex(C,matrix,b,true);
+	Simplex simplex(C,matrix,b);
 	end = std::chrono::high_resolution_clock::now();
 
 	auto duration = std::chrono::duration_cast<std::chrono::seconds>(end - init).count();
