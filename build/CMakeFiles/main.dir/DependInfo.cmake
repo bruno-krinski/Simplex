@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp" "/home/krinski/Documentos/Projetos/Simplex/build/CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o"
   "/home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp" "/home/krinski/Documentos/Projetos/Simplex/build/CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.o"
+  "/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp" "/home/krinski/Documentos/Projetos/Simplex/build/CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o"
   "/home/krinski/Documentos/Projetos/Simplex/src/main.cpp" "/home/krinski/Documentos/Projetos/Simplex/build/CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

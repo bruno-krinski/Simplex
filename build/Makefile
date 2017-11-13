@@ -177,6 +177,33 @@ home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.s
 .PHONY : home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.s
 
+home/krinski/Documentos/Projetos/Simplex/src/functions.o: home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o
+
+.PHONY : home/krinski/Documentos/Projetos/Simplex/src/functions.o
+
+# target to build an object file
+home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o
+.PHONY : home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o
+
+home/krinski/Documentos/Projetos/Simplex/src/functions.i: home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.i
+
+.PHONY : home/krinski/Documentos/Projetos/Simplex/src/functions.i
+
+# target to preprocess a source file
+home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.i
+.PHONY : home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.i
+
+home/krinski/Documentos/Projetos/Simplex/src/functions.s: home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.s
+
+.PHONY : home/krinski/Documentos/Projetos/Simplex/src/functions.s
+
+# target to generate assembly for a file
+home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.s
+.PHONY : home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.s
+
 home/krinski/Documentos/Projetos/Simplex/src/main.o: home/krinski/Documentos/Projetos/Simplex/src/main.cpp.o
 
 .PHONY : home/krinski/Documentos/Projetos/Simplex/src/main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... home/krinski/Documentos/Projetos/Simplex/src/Simplex.o"
 	@echo "... home/krinski/Documentos/Projetos/Simplex/src/Simplex.i"
 	@echo "... home/krinski/Documentos/Projetos/Simplex/src/Simplex.s"
+	@echo "... home/krinski/Documentos/Projetos/Simplex/src/functions.o"
+	@echo "... home/krinski/Documentos/Projetos/Simplex/src/functions.i"
+	@echo "... home/krinski/Documentos/Projetos/Simplex/src/functions.s"
 	@echo "... home/krinski/Documentos/Projetos/Simplex/src/main.o"
 	@echo "... home/krinski/Documentos/Projetos/Simplex/src/main.i"
 	@echo "... home/krinski/Documentos/Projetos/Simplex/src/main.s"

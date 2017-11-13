@@ -9,6 +9,9 @@ CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.o
  ../include/Simplex.hpp
  ../include/functions.hpp
  /home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp
+CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o
+ ../include/functions.hpp
+ /home/krinski/Documentos/Projetos/Simplex/src/functions.cpp
 CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/main.cpp.o
  ../include/Matrix.hpp
  ../include/Simplex.hpp

@@ -45,6 +45,12 @@ Matrix.hpp
 /home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp
 Simplex.hpp
 /home/krinski/Documentos/Projetos/Simplex/src/Simplex.hpp
+functions.hpp
+/home/krinski/Documentos/Projetos/Simplex/src/functions.hpp
+
+/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp
+functions.hpp
+/home/krinski/Documentos/Projetos/Simplex/src/functions.hpp
 
 /home/krinski/Documentos/Projetos/Simplex/src/main.cpp
 ctime
@@ -57,6 +63,8 @@ fstream
 -
 iostream
 -
+functions.hpp
+/home/krinski/Documentos/Projetos/Simplex/src/functions.hpp
 Simplex.hpp
 /home/krinski/Documentos/Projetos/Simplex/src/Simplex.hpp
 
