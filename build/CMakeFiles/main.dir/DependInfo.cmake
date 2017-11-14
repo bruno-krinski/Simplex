@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp" "/home/krinski/Documentos/Projetos/Simplex/build/CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o"
-  "/home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp" "/home/krinski/Documentos/Projetos/Simplex/build/CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.o"
-  "/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp" "/home/krinski/Documentos/Projetos/Simplex/build/CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o"
-  "/home/krinski/Documentos/Projetos/Simplex/src/main.cpp" "/home/krinski/Documentos/Projetos/Simplex/build/CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/main.cpp.o"
+  "/home/bakrinski/Simplex/src/Matrix.cpp" "/home/bakrinski/Simplex/build/CMakeFiles/main.dir/home/bakrinski/Simplex/src/Matrix.cpp.o"
+  "/home/bakrinski/Simplex/src/functions.cpp" "/home/bakrinski/Simplex/build/CMakeFiles/main.dir/home/bakrinski/Simplex/src/functions.cpp.o"
+  "/home/bakrinski/Simplex/src/main.cpp" "/home/bakrinski/Simplex/build/CMakeFiles/main.dir/home/bakrinski/Simplex/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
+  "/usr/local/cuda/include"
   )
 
 # Targets to which this target links.

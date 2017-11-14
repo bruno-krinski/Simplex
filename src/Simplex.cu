@@ -5,7 +5,7 @@ Simplex::Simplex(std::vector<double> C, Matrix A, std::vector<double> b, bool pa
 
 	if(parallel == false){
 		initialize_vars(vars, A.numCols());
-		printVector(vars);
+		printStringVector(vars);
 	} else {
 
 	}

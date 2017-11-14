@@ -1,5 +1,5 @@
 #include<ctime>
-#include<chrono>
+//#include<chrono>
 #include<cstdlib>
 #include<fstream>
 #include<iostream>
@@ -38,9 +38,16 @@ int main(int argc, char **argv){
 	matrix.set(2,0,1);
 	matrix.set(2,1,-1);
 	*/
-	/*
-	std::vector<double> C = {-2, -3, -1};
-	std::vector<double> b = {40,20,30};
+	
+	std::vector<double> C;// = (-2.0, -3.0, -1.0);
+	std::vector<double> b;// = (40.0,20.0,30.0);
+
+	C.push_back(-2);
+	C.push_back(-3);
+	C.push_back(-1);
+	b.push_back(40);
+	b.push_back(20);
+	b.push_back(30);
 
 	Matrix matrix(3,3);
 	
@@ -53,9 +60,9 @@ int main(int argc, char **argv){
 	matrix.set(2,0,3);
 	matrix.set(2,1,2);
 	matrix.set(2,2,-1);
-
-	*/
-
+	Simplex simplex(C,matrix,b);
+	
+	/*
 	std::ofstream out("../problem.txt");
 	std::chrono::high_resolution_clock::time_point init, end;
 
@@ -94,11 +101,11 @@ int main(int argc, char **argv){
 	saveVector(C,out);
 	saveVector(b,out);
 
-	/*matrix.print();
+	matrix.print();
 	std::cout << "C vector: \n";
 	printVector(C);
 	std::cout << "b vector: \n";
-	printVector(b);*/
+	printVector(b);
 
 	matrix.save(out);
 	init = std::chrono::high_resolution_clock::now(); 
@@ -108,7 +115,7 @@ int main(int argc, char **argv){
 	auto duration = std::chrono::duration_cast<std::chrono::seconds>(end - init).count();
 	std::cout << "Executation time: " << (double)duration << " seconds.\n";
 
-	out.close();
+	out.close();*/
 
 	return 0;
 }

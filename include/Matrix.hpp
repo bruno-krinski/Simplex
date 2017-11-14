@@ -9,7 +9,7 @@ class Matrix{
 
 private:
 	unsigned int rows, cols;
-	std::vector<std::vector<double>> matrix;
+	std::vector<std::vector<double> > matrix;
 
 public:
 	Matrix();

@@ -4,11 +4,13 @@
 #include<vector>
 #include<string>
 #include<fstream>
+#include<sstream>
 #include<iostream>
 
 void initialize_vars(std::vector<std::string>& v, unsigned int size);
+void printStringVector(const std::vector<std::string>& v);
 
-void printVector(std::vector<auto> v){
+/*void printVector(std::vector<auto> v){
 	for(auto i = v.begin(); i != v.end(); ++i){
 		std::cout << *i << " ";
 	}
@@ -65,6 +67,6 @@ bool findElementInVector(std::vector<auto> v, auto e, unsigned int& index){
 		}
 	}
 	return false;
-}
+}*/
 
 #endif

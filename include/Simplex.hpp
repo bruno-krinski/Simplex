@@ -6,6 +6,10 @@
 #include<iostream>
 #include<algorithm>
 
+#include <thrust/device_vector.h>
+#include <thrust/reduce.h>
+#include <thrust/sequence.h>
+
 #include "Matrix.hpp"
 #include "functions.hpp"
 

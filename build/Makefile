@@ -48,13 +48,24 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krinski/Documentos/Projetos/Simplex/build
+CMAKE_SOURCE_DIR = /home/bakrinski/Simplex/build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krinski/Documentos/Projetos/Simplex/build
+CMAKE_BINARY_DIR = /home/bakrinski/Simplex/build
 
 #=============================================================================
 # Targets provided globally by CMake.
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -67,22 +78,11 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/krinski/Documentos/Projetos/Simplex/build/CMakeFiles /home/krinski/Documentos/Projetos/Simplex/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bakrinski/Simplex/build/CMakeFiles /home/bakrinski/Simplex/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/krinski/Documentos/Projetos/Simplex/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bakrinski/Simplex/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,113 +123,86 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-home/krinski/Documentos/Projetos/Simplex/src/Matrix.o: home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o
+home/bakrinski/Simplex/src/Matrix.o: home/bakrinski/Simplex/src/Matrix.cpp.o
 
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/Matrix.o
-
-# target to build an object file
-home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.o
-
-home/krinski/Documentos/Projetos/Simplex/src/Matrix.i: home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.i
-
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/Matrix.i
-
-# target to preprocess a source file
-home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.i
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.i
-
-home/krinski/Documentos/Projetos/Simplex/src/Matrix.s: home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.s
-
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/Matrix.s
-
-# target to generate assembly for a file
-home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.s
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/Matrix.cpp.s
-
-home/krinski/Documentos/Projetos/Simplex/src/Simplex.o: home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.o
-
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/Simplex.o
+.PHONY : home/bakrinski/Simplex/src/Matrix.o
 
 # target to build an object file
-home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.o
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.o
+home/bakrinski/Simplex/src/Matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/bakrinski/Simplex/src/Matrix.cpp.o
+.PHONY : home/bakrinski/Simplex/src/Matrix.cpp.o
 
-home/krinski/Documentos/Projetos/Simplex/src/Simplex.i: home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.i
+home/bakrinski/Simplex/src/Matrix.i: home/bakrinski/Simplex/src/Matrix.cpp.i
 
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/Simplex.i
+.PHONY : home/bakrinski/Simplex/src/Matrix.i
 
 # target to preprocess a source file
-home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.i
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.i
+home/bakrinski/Simplex/src/Matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/bakrinski/Simplex/src/Matrix.cpp.i
+.PHONY : home/bakrinski/Simplex/src/Matrix.cpp.i
 
-home/krinski/Documentos/Projetos/Simplex/src/Simplex.s: home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.s
+home/bakrinski/Simplex/src/Matrix.s: home/bakrinski/Simplex/src/Matrix.cpp.s
 
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/Simplex.s
+.PHONY : home/bakrinski/Simplex/src/Matrix.s
 
 # target to generate assembly for a file
-home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.s
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/Simplex.cpp.s
+home/bakrinski/Simplex/src/Matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/bakrinski/Simplex/src/Matrix.cpp.s
+.PHONY : home/bakrinski/Simplex/src/Matrix.cpp.s
 
-home/krinski/Documentos/Projetos/Simplex/src/functions.o: home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o
+home/bakrinski/Simplex/src/functions.o: home/bakrinski/Simplex/src/functions.cpp.o
 
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/functions.o
+.PHONY : home/bakrinski/Simplex/src/functions.o
 
 # target to build an object file
-home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.o
+home/bakrinski/Simplex/src/functions.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/bakrinski/Simplex/src/functions.cpp.o
+.PHONY : home/bakrinski/Simplex/src/functions.cpp.o
 
-home/krinski/Documentos/Projetos/Simplex/src/functions.i: home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.i
+home/bakrinski/Simplex/src/functions.i: home/bakrinski/Simplex/src/functions.cpp.i
 
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/functions.i
+.PHONY : home/bakrinski/Simplex/src/functions.i
 
 # target to preprocess a source file
-home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.i
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.i
+home/bakrinski/Simplex/src/functions.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/bakrinski/Simplex/src/functions.cpp.i
+.PHONY : home/bakrinski/Simplex/src/functions.cpp.i
 
-home/krinski/Documentos/Projetos/Simplex/src/functions.s: home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.s
+home/bakrinski/Simplex/src/functions.s: home/bakrinski/Simplex/src/functions.cpp.s
 
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/functions.s
+.PHONY : home/bakrinski/Simplex/src/functions.s
 
 # target to generate assembly for a file
-home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.s
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/functions.cpp.s
+home/bakrinski/Simplex/src/functions.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/bakrinski/Simplex/src/functions.cpp.s
+.PHONY : home/bakrinski/Simplex/src/functions.cpp.s
 
-home/krinski/Documentos/Projetos/Simplex/src/main.o: home/krinski/Documentos/Projetos/Simplex/src/main.cpp.o
+home/bakrinski/Simplex/src/main.o: home/bakrinski/Simplex/src/main.cpp.o
 
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/main.o
+.PHONY : home/bakrinski/Simplex/src/main.o
 
 # target to build an object file
-home/krinski/Documentos/Projetos/Simplex/src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/main.cpp.o
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/main.cpp.o
+home/bakrinski/Simplex/src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/bakrinski/Simplex/src/main.cpp.o
+.PHONY : home/bakrinski/Simplex/src/main.cpp.o
 
-home/krinski/Documentos/Projetos/Simplex/src/main.i: home/krinski/Documentos/Projetos/Simplex/src/main.cpp.i
+home/bakrinski/Simplex/src/main.i: home/bakrinski/Simplex/src/main.cpp.i
 
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/main.i
+.PHONY : home/bakrinski/Simplex/src/main.i
 
 # target to preprocess a source file
-home/krinski/Documentos/Projetos/Simplex/src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/main.cpp.i
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/main.cpp.i
+home/bakrinski/Simplex/src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/bakrinski/Simplex/src/main.cpp.i
+.PHONY : home/bakrinski/Simplex/src/main.cpp.i
 
-home/krinski/Documentos/Projetos/Simplex/src/main.s: home/krinski/Documentos/Projetos/Simplex/src/main.cpp.s
+home/bakrinski/Simplex/src/main.s: home/bakrinski/Simplex/src/main.cpp.s
 
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/main.s
+.PHONY : home/bakrinski/Simplex/src/main.s
 
 # target to generate assembly for a file
-home/krinski/Documentos/Projetos/Simplex/src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/krinski/Documentos/Projetos/Simplex/src/main.cpp.s
-.PHONY : home/krinski/Documentos/Projetos/Simplex/src/main.cpp.s
+home/bakrinski/Simplex/src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/bakrinski/Simplex/src/main.cpp.s
+.PHONY : home/bakrinski/Simplex/src/main.cpp.s
 
 # Help Target
 help:
@@ -237,21 +210,18 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... home/krinski/Documentos/Projetos/Simplex/src/Matrix.o"
-	@echo "... home/krinski/Documentos/Projetos/Simplex/src/Matrix.i"
-	@echo "... home/krinski/Documentos/Projetos/Simplex/src/Matrix.s"
-	@echo "... home/krinski/Documentos/Projetos/Simplex/src/Simplex.o"
-	@echo "... home/krinski/Documentos/Projetos/Simplex/src/Simplex.i"
-	@echo "... home/krinski/Documentos/Projetos/Simplex/src/Simplex.s"
-	@echo "... home/krinski/Documentos/Projetos/Simplex/src/functions.o"
-	@echo "... home/krinski/Documentos/Projetos/Simplex/src/functions.i"
-	@echo "... home/krinski/Documentos/Projetos/Simplex/src/functions.s"
-	@echo "... home/krinski/Documentos/Projetos/Simplex/src/main.o"
-	@echo "... home/krinski/Documentos/Projetos/Simplex/src/main.i"
-	@echo "... home/krinski/Documentos/Projetos/Simplex/src/main.s"
+	@echo "... home/bakrinski/Simplex/src/Matrix.o"
+	@echo "... home/bakrinski/Simplex/src/Matrix.i"
+	@echo "... home/bakrinski/Simplex/src/Matrix.s"
+	@echo "... home/bakrinski/Simplex/src/functions.o"
+	@echo "... home/bakrinski/Simplex/src/functions.i"
+	@echo "... home/bakrinski/Simplex/src/functions.s"
+	@echo "... home/bakrinski/Simplex/src/main.o"
+	@echo "... home/bakrinski/Simplex/src/main.i"
+	@echo "... home/bakrinski/Simplex/src/main.s"
 .PHONY : help
 
 
